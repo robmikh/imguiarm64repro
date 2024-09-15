@@ -4,10 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-imgui = "0.12"
-imgui-winit-support = { version = "0.12", default-features = false }
-winit = "0.29.3"
-wgpu = "0.20"
-imgui-wgpu = { git = "https://github.com/benmkw/imgui-wgpu-rs", branch = "wgpu020" }
-pollster = "0.3.0"
+imgui-sys = "0.12.0"
 
